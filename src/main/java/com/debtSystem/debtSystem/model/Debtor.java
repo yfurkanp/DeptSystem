@@ -11,10 +11,10 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name="table_debtor")
-
 @Data
 @NoArgsConstructor
 public class Debtor {
+	
 		@Id
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private int Id;
